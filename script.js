@@ -35,7 +35,7 @@ function calculate(){
     //Determin rarity
     if(finalResult1 >= 90){
         document.getElementById("finalResult").textContent= rare;;
-    }else if(finalResult1 <= 89 || finalResult1 >= 50){
+    }else if(finalResult1 <= 89 || finalResult1 <= 50){
         document.getElementById("finalResult").textContent= uncommon;
     }else{
         document.getElementById("finalResult").textContent= common;
