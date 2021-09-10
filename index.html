@@ -1,0 +1,79 @@
+<html>
+    
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script2.js"></script>
+        <meta content='width=device-width, initial-scale=1' name='viewport'/>
+        <link rel = "icon" href = "https://dragonary.com/wp-content/uploads/dragon_img_png.png" type = "image/x-icon">
+    </head>
+    
+    <body>  
+    <title> Dragonary breeding calculator </title>
+    <div class="bg">
+    <div class="container"> 
+        <form id="contact" action="javascript:void(0);">
+                <h3>Parent number 1 stats.</h3>
+            <br>
+        <fieldset>
+            <input id="fSOne" placeholder="Parent No.1 First stat" type="text" tabindex="1" required autofocus>
+        </fieldset>
+
+        <fieldset>
+            <input id="fSTwo" placeholder="Parent No.1 Secondstat" type="text" tabindex="2" required>
+        </fieldset>
+
+        <fieldset>
+            <input id="fSThree" placeholder="Parent No.1 Third stat" type="text" tabindex="3" required>
+        </fieldset>
+            <h3>Parent number 2 stats.</h3> 
+            <br>    
+        <fieldset>
+            <input id="sSOne" placeholder="Parent No.2 Third stat" type="text" tabindex="4" required>
+        </fieldset>
+
+        <fieldset>
+            <input id="sSTwo" placeholder="Parent No.2 Third stat" type="text" tabindex="5" required>
+        </fieldset>
+
+        <fieldset>
+            <input id="sSThree" placeholder="Parent No.2 Third stat" type="text" tabindex="6" required>
+        </fieldset>
+
+        <fieldset>
+            <button onclick="calculate()" name="submit" type="submit" id="contact-submit">Calculate</button>
+        </fieldset>
+            <div class="result">
+                <div class="final-result">
+                    <h4>Dragon stat result</h4>
+                    <h2 id="finalResult1"></h2>
+                </div>
+                <div>
+                    <h4>Dragon rarity</h4>
+                    <h2 id="finalResult"></h2>
+                </div>
+
+                    <strong>First stat : </strong> 
+                    <h4 id="stat1" maxlength="4" size="4"></h4>
+                    <strong>Second stat : </strong>
+                    <h4 id="stat2" maxlength="4" size="4"></h4>
+                    <strong>Third stat : </strong>
+                    <h4 id="stat3" maxlength="4" size="4"></h4>
+
+                    
+            </div>
+       
+    </form>
+    </div>
+    </div>
+    </body>
+</div>
+<footer>
+  
+    <div class="foot">
+    <p>
+    Please consider donating to : 0x593e48Ed39F54d3Af248199ee2a84B7cd6c0B9f8 (BSC Network)</p>
+    <p>Made by <a href="https://www.facebook.com/hercbandiola3">Herc</a></p>
+    <p><strong>NOT affiliated with Dragonary.</strong></p>
+    </div>
+</footer>
+</html>
